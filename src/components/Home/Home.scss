@@ -1,0 +1,133 @@
+.wrapper{
+    display:flex;
+    width:100vw;
+    flex-direction: column;
+
+    .container-first{
+        width:100%;
+        .first-image{
+            width:100%;
+            padding:50px;
+            img{
+                width:100%;
+            }
+        }
+        .first-heading{
+            
+            width:100%;
+        }
+        @media screen and (max-width:900px){
+            flex-direction: column;
+        }
+    }
+    .container-services{
+        background-color: #9bd5fe;
+        width:100%;
+        flex-direction:column;
+        h2{
+            color:var(--red);
+        }
+        .services-one-two{
+            padding-top:50px;
+            width:100%;
+            flex-direction: column;
+        }
+        .services-one{
+            
+            flex-direction: row;
+            width:100%;
+            @media screen and (max-width:900px){
+                flex-direction: column;
+                
+            }
+        }
+        .services-two{
+            padding-top:50px;
+            flex-direction: row;
+            
+            width:100%;
+            @media screen and (max-width:900px){
+                flex-direction: column;
+            }
+        }
+        @media screen and (max-width:900px){
+            flex-direction: column;
+        }
+        
+    }
+    .web-design-logo{
+        h2{
+            padding-left:350px;
+            color:var(--red);
+            @media screen and (max-width:900px){
+                padding:0;
+            }
+        }
+    }
+    .web-design-container{
+        width:100%;
+        
+        .web-design-header{
+            width:100%;
+            height:100%;
+            align-items: left;
+            padding:40px;
+            flex-direction: column;
+            width:50%;
+            
+            h1{
+                padding-bottom:50px;
+            }
+            p{
+                line-height:2;
+                font-weight:bold;
+            }
+        }
+        .web-design-image{
+            img{
+                width:100%;
+                padding:100px;
+            }
+        }
+        @media screen and (max-width:900px){
+            flex-direction: column;
+        }
+
+    }
+    .stunning-logo{
+        h2{
+            padding-left:350px;
+            color:var(--red);
+            @media screen and (max-width:900px){
+                padding:0;
+            }
+        }
+    }
+    .stunning-container{
+        width:100%;
+        flex-direction: row;
+        .stunning-header{
+            width:100%;
+            flex-direction: column;
+            padding:50px;
+            h1{
+                padding-bottom:50px;
+            }
+            p{
+                line-height:2;
+                font-weight:bold;
+            }
+        }
+        .stunning-image{
+            width:100%;
+            img{
+                width:100%;
+                padding:100px;
+                
+            }
+        }
+        @media screen and (max-width:900px){
+            flex-direction: column;
+        }
+    }
+}
